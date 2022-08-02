@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Plan de comunicación de producto sostenible**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF6_631102_Comercio_Productos_Sostenibles/](https://ecored-sena.github.io/CF6_631102_Comercio_Productos_Sostenibles/)
 
 #
 
