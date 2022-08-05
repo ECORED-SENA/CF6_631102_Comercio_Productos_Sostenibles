@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido.mb-0
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFFFFF") 1
       h1 #[i Ecomarketing]
-    .row.bg-color1
+    .row.bg-color1(data-aos="fade-right")
       .col-12.p-5
         .row.justify-content-center
           .col-lg-6
@@ -14,7 +14,7 @@
               img(src='@/assets/curso/tema1/img2.svg').m-auto
           .col-lg-10.bg-color2
             p.mb-0.mt-4 En Colombia se ha desarrollado el Plan Nacional de Producción y Consumo Sostenible, el cual contempla siete (7) ejes estratégicos para lograr cambios en los patrones de producción y consumo hacia la sostenibilidad. A continuación, se desarrolla cada uno de los ejes:
-    .tarjeta.tarjeta--amarilla.p-5.mb-5
+    .tarjeta.tarjeta--amarilla.p-5.mb-5(data-aos="fade-left")
       SlyderA
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -68,7 +68,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img8.png', style="width: 350px").m-auto
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.bg-color2
         p.mb-4.mt-4 Dentro de esos ejes estratégicos se contempla el principio siete (7), #[span.txt-color1 “Emprendimiento en negocios verdes”], el cual se desarrolla teniendo en cuenta su importancia, así:
         .cajon.color-primario.p-5
@@ -85,7 +85,7 @@
             li 
               i.lista-ul__vineta(style="color: #EA3584")
               | 
-              p.mb-0 En consecuencia, en los negocios verdes, al igual que en cualquier otro tipo de negocios, es necesario contar con los conocimientos básicos de mercadeo, y en este caso, del mercadeo o #[span.txt-color1 marketing verde].
+              p.mb-0 En consecuencia, en los negocios verdes, al igual que en cualquier otro tipo de negocios, es necesario contar con los conocimientos básicos de mercadeo, y en este caso, del mercadeo o #[span.txt-color1 #[i marketing] verde].
     .row.mb-4
       .col-lg-6.bg-color3
         .row.align-items-center
@@ -95,7 +95,7 @@
           .col-8
             h4.mb-0 #[i Marketing] verde
     p.mb-5 Es, entonces, la comercialización de productos que presumen ser ambientalmente seguros para el medio ambiente y para su público meta. Este incluye diversas actividades, tales como reducción de residuos, cambios en el producto desde su desarrollo hasta su embalaje y modificaciones en su mezcla de comunicación.
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-12.py-4.bg-color4
         .row.justify-content-center.align-items-center
           .col-lg-auto.mb-4.mb-lg-0
@@ -103,8 +103,8 @@
               img(src='@/assets/curso/tema1/img9.png').m-auto
           .col-lg-6
             p El pilar del #[i marketing] tradicional, al igual que el verde, es enfocarse en la presentación de los beneficios a los clientes. Así mismo, crear una mayor conciencia por parte de los clientes acerca de los productos que compran o consumen y que estos sean preferidos sobre sus competidores “no verdes”.
-    p.mb-5 Grant (2007) destaca cinco (5) puntos clave para tener en cuenta para llevar a cabo de manera adecuada prácticas de marketing verde, a saber:
-    .row.justify-content-center.bg-color5.mb-5
+    p.mb-5 Grant (2007) destaca cinco (5) puntos clave para tener en cuenta para llevar a cabo de manera adecuada prácticas de #[i marketing] verde, a saber:
+    .row.justify-content-center.bg-color5.mb-5(data-aos="fade-right")
       .col-lg-6
         ImagenInfografica.color-secundario.pt-5
           template(v-slot:imagen)
@@ -133,15 +133,15 @@
               img(src='@/assets/curso/tema1/img3.svg').m-auto
           .col-8
             h4.mb-0 Mezcla del #[i marketing] verde
-    p Se deriva del marketing tradicional, en el cual se establecen las 4P (precio, producto, plaza y promoción) para las empresas, las cuales se adaptan según su perfil y preferencias. Esta mezcla de mercadeo es crucial para el futuro desempeño de las empresas, y para el caso de los negocios verdes, se realizan los ajustes para lograr un enfoque más ecológico.
-    p.mb-5 #[b A continuación, se presenta el comparativo donde se define cada una de las P en el marketing tradicional, en contraste con el marketing verde:]
-    .row.bg-color7
+    p(data-aos="fade-left") Se deriva del #[i marketing] tradicional, en el cual se establecen las 4P (precio, producto, plaza y promoción) para las empresas, las cuales se adaptan según su perfil y preferencias. Esta mezcla de mercadeo es crucial para el futuro desempeño de las empresas, y para el caso de los negocios verdes, se realizan los ajustes para lograr un enfoque más ecológico.
+    p.mb-5 #[b A continuación, se presenta el comparativo donde se define cada una de las P en el #[i marketing] tradicional, en contraste con el #[i marketing] verde:]
+    .row.bg-color7(data-aos="fade-right")
       .col-12.p-5
         .row.mb-5
           .col-12
             .row.justify-content-center
               .col-auto.bg-color8
-                p.text-center.mb-0.mx-4 #[b Mezcla de marketing]
+                p.text-center.mb-0.mx-4 #[b Mezcla de #[i marketing]]
         .row
           .col-lg-6
             .row.mb-5
@@ -204,7 +204,7 @@
     .row.justify-content-center.mb-5
       .col-auto.bg-color9
         p.mb-0.mx-4 #[b Y para una mejor comprensión, en el siguiente video se presentan ejemplos de mercadeo verde:]
-    figure
+    figure(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/PbdVwChb71Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       

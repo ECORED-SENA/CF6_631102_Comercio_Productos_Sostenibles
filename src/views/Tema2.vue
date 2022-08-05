@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFFFFF") 2
       h1 #[i Brief] (documento informativo)
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-12
         figure
           img(src='@/assets/curso/tema2/img1.png').m-auto
-    p.mb-5 El #[i brief] o #[i briefing] #[span.txt-color2 es un documento tipo instructivo que se realiza en el sector publicitario.] Este es elaborado por el ejecutivo de cuenta o el diseñador, a partir de la información que brinda el cliente respecto a su producto.  Este documento es entregado al diseñador en la etapa inicial del proyecto, es aquí donde se definen todos los objetivos que se desean cumplir. Los apartados del #[i brief] incluyen la descripción del producto, la empresa, marca, sector al que pertenece, evolución gráfica, evolución en el tiempo, productos de la competencia, ventajas sobre otras marcas, localización, posicionamiento a futuro, cultura corporativa, etc.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-left") El #[i brief] o #[i briefing] #[span.txt-color2 es un documento tipo instructivo que se realiza en el sector publicitario.] Este es elaborado por el ejecutivo de cuenta o el diseñador, a partir de la información que brinda el cliente respecto a su producto.  Este documento es entregado al diseñador en la etapa inicial del proyecto, es aquí donde se definen todos los objetivos que se desean cumplir. Los apartados del #[i brief] incluyen la descripción del producto, la empresa, marca, sector al que pertenece, evolución gráfica, evolución en el tiempo, productos de la competencia, ventajas sobre otras marcas, localización, posicionamiento a futuro, cultura corporativa, etc.
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.px-0
         .cajon.color-primario.p-4
           .row.align-items-center
@@ -19,9 +19,9 @@
               figure.mb-4.mb-lg-0
                 img(src='@/assets/curso/tema2/img1.svg').m-auto
             .col
-              p.mb-0 El estudio del público o consumidor es muy importante de definir, ya que limita el alcance de la campaña; en este sentido, la demografía se refiere a muchos aspectos, como la calidad de vida, hábitos de consumo o condición económica de cierto grupo poblacional. De igual manera, se tienen en cuenta las campañas realizadas anteriormente por la empresa, con el objetivo de utilizar un mismo lenguaje. El brief marca la pauta en cuanto a los tiempos de ejecución, en algunos casos, el presupuesto estimado y otros requerimientos del cliente y el diseñador.
-    .row.justify-content-center.mb-5
-      .col-lg-10.bg-color5
+              p.mb-0 El estudio del público o consumidor es muy importante de definir, ya que limita el alcance de la campaña; en este sentido, la demografía se refiere a muchos aspectos, como la calidad de vida, hábitos de consumo o condición económica de cierto grupo poblacional. De igual manera, se tienen en cuenta las campañas realizadas anteriormente por la empresa, con el objetivo de utilizar un mismo lenguaje. El #[i brief] marca la pauta en cuanto a los tiempos de ejecución, en algunos casos, el presupuesto estimado y otros requerimientos del cliente y el diseñador.
+    .row.justify-content-center.mb-5(data-aos="fade-up")
+      .col-lg-10.bg-color5.mb-5
         .p-4
           .row.justify-content-center.align-items-center
             .col-3.col-lg-auto
@@ -29,14 +29,14 @@
                 img(src='@/assets/curso/tema2/img2.svg').m-auto
             .col-lg.mb-4.mb-lg-0
               h4 #[i Brief]
-              p.mb-0 A continuación, observe el video Brief para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
-            .col-auto.col-lg-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    p.mb-5 #[b Por medio del brief podemos saber si las expectativas de un cliente son exageradas o por el contrario un poco tímidas]. Cada agencia o diseñador realiza su propio formato de brief, ya que no existe un patrón universal del mismo, es más bien un formato acomodado a las necesidades requeridas.
-    .row.justify-content-center
-      .col-lg-10.bg-color5
+              p.mb-0 A continuación, observe el video #[i Brief] para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
+      .col-lg-10
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/SvR-bixZCNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-5 #[b Por medio del #[i brief] podemos saber si las expectativas de un cliente son exageradas o por el contrario un poco tímidas]. Cada agencia o diseñador realiza su propio formato de #[i brief], ya que no existe un patrón universal del mismo, es más bien un formato acomodado a las necesidades requeridas.
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-10.bg-color5.mb-5
         .p-4
           .row.justify-content-center.align-items-center
             .col-3.col-lg-auto
@@ -44,17 +44,17 @@
                 img(src='@/assets/curso/tema2/img2.svg').m-auto
             .col-lg.mb-4.mb-lg-0
               h4 #[i Brief] o #[i Briefing]
-              p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video El #[b #[i Brief]] o #[i #[b Briefing]], que encuentra disponible en el material complementario.
-            .col-auto.col-lg-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+              p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video: el #[b #[i brief]] o #[i #[b briefing]].
+      .col-lg-10
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/6vlN4DZVQGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Tipos de #[i brief] y sus elementos
-    p.mb-5 Existen diversos tipos de briefing, como los que puede conocer de manera más detallada a continuación:
-    .tarjeta.tarjeta--amarilla.p-5.mb-5
+    p.mb-5 Existen diversos tipos de #[i briefing], como los que puede conocer de manera más detallada a continuación:
+    .tarjeta.tarjeta--amarilla.p-5.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -66,7 +66,7 @@
                 |  Canales que se van a utilizar.
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
-                |  Público al cual se dirige la campaña (target).
+                |  Público al cual se dirige la campaña (#[i target]).
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
                 |  Directrices del tono y uso del lenguaje comunicativo.
@@ -95,7 +95,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h4 #[b #[i Briefing] de #[i marketing]]
-            p Se utiliza en marketing y define parámetros de la campaña, por ejemplo, si será digital o tradicional. El desarrollo del brief se orienta a través de las siguientes preguntas:
+            p Se utiliza en #[i marketing] y define parámetros de la campaña, por ejemplo, si será digital o tradicional. El desarrollo del #[i brief] se orienta a través de las siguientes preguntas:
             ul
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
@@ -127,7 +127,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h4 #[b #[i Briefing] de negocio]
-            p Presenta una estructura similar al brief de marketing, enfocado de manera estratégica hacia el proyecto, sus principales elementos son:
+            p Presenta una estructura similar al #[i brief] de #[i marketing], enfocado de manera estratégica hacia el proyecto, sus principales elementos son:
             ul
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
@@ -157,7 +157,7 @@
             figure
               img(src='@/assets/curso/tema2/img6.svg', style="width: 350px").m-auto
     p.mb-5 De otra parte, y de mucha importancia, están los elementos que se deben tener presentes, estos son:
-    .tarjeta.bg-color10.p-5
+    .tarjeta.bg-color10.p-5(data-aos="fade-left")
       LineaTiempoC.color-acento-contenido(text-small)
         .row.justify-content-center(titulo="Objetivo")
           .col-lg-6.mb-4.mb-lg-0
@@ -168,7 +168,7 @@
               img(src='@/assets/curso/tema2/img4.png')
         .row.justify-content-center(titulo="Público")
           .col-lg-6.mb-4.mb-lg-0
-            p #[b público]
+            p #[b Público]
             p.mb-0 Conocer el #[b público] a quien va dirigido influirá en la manera como se comunica o se plasman las ideas, se elaboran ideales y se plantean formas de cómo llegar a ese tipo de personas.
           .col-lg-4
             figure
@@ -187,10 +187,10 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img6.png')
-        .row.justify-content-center(titulo="Kpis")
+        .row.justify-content-center(titulo="KPI´s")
           .col-lg-6.mb-4.mb-lg-0
-            p #[b Kpis]
-            p.mb-0 Los #[b Kpis] son elementos que van a reconocer si se están haciendo bien las cosas, los indicadores de rendimiento que permitirán tomar medidas y visualizar errores.
+            p #[b KPI´s]
+            p.mb-0 Los #[b KPI´s] son elementos que van a reconocer si se están haciendo bien las cosas, los indicadores de rendimiento que permitirán tomar medidas y visualizar errores.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img7.png')
@@ -233,16 +233,16 @@
     #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Análisis e interpretación de la información
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
-        p Queda claro que el brief es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto.
+        p Queda claro que el #[i brief] es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto.
         .cajon.color-primario.p-4
           .row.align-items-center
             .col-auto
               figure
                 img(src='@/assets/curso/tema2/img7.svg')
             .col
-              p.mb-0 Junto con el equipo de trabajo, se pueden desarrollar preguntas en torno al #[b ¿qué?], #[b ¿por qué?], #[b ¿quién?], #[b ¿cómo?], tanto cuando se tiene un brief completo como cuando no. Un elemento importante para tener una interpretación correcta es el estudio conciso e identificación del público objetivo; en este punto, hay que ser muy concretos, ya que de este aspecto dependerá el éxito del trabajo.
+              p.mb-0 Junto con el equipo de trabajo, se pueden desarrollar preguntas en torno al #[b ¿qué?], #[b ¿por qué?], #[b ¿quién?], #[b ¿cómo?], tanto cuando se tiene un #[i brief] completo como cuando no. Un elemento importante para tener una interpretación correcta es el estudio conciso e identificación del público objetivo; en este punto, hay que ser muy concretos, ya que de este aspecto dependerá el éxito del trabajo.
       .col-lg-5
         figure
           img(src='@/assets/curso/tema2/img13.png')
@@ -254,7 +254,7 @@
               img(src='@/assets/curso/tema1/img3.svg').m-auto
           .col
             h4.mb-0 Para estudiar un cliente es necesario investigar las siguientes variables:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -311,12 +311,83 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4.text-center Hábitos de consumo
               p.text-center Por ejemplo, hoy en día, hay muchas personas que han optado por una alimentación vegana, vegetariana, celíaca, o simplemente personas que pueden consumir todos los tipos de alimentos, por diferentes motivos.
-    p.mb-5 Reconocer a quién va dirigido (#[b público objetivo]) ayudará a identificar los detalles del producto o la marca y las estrategias que se deberán seguir, permitiéndole al diseñador establecer el punto de partida para entender cómo desarrollar la campaña con una propuesta innovadora y cuáles serán los objetivos a conseguir, asimismo, definir los medios más eficientes a utilizar en la estrategia de diseño. Por lo anterior, revise con mucho detenimiento la siguiente presentación, que le ayudará a profundizar este tema tan importante:
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") Reconocer a quién va dirigido (#[b público objetivo]) ayudará a identificar los detalles del producto o la marca y las estrategias que se deberán seguir, permitiéndole al diseñador establecer el punto de partida para entender cómo desarrollar la campaña con una propuesta innovadora y cuáles serán los objetivos a conseguir, asimismo, definir los medios más eficientes a utilizar en la estrategia de diseño. Por lo anterior, revise con mucho detenimiento la siguiente presentación, que le ayudará a profundizar este tema tan importante:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        figure
-          img(src='@/assets/curso/tema2/img15.svg')
-    .row.justify-content-center.mb-5
+        ImagenInfograficaB.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2/img15.svg', alt='Texto que describa la imagen')
+          div(x="13%" y="59%" tooltip="Conociendo al cliente. Revisar la información" numero="1")
+            .row
+              .col-12
+                h4 Conociendo al cliente. Revisar la información
+                .row.mb-4
+                  .col-lg-7.mb-4.mb-lg-0
+                    p De acuerdo con Reizenstein (2004), “un cliente es la persona o empresa receptora de un bien, servicio, producto o idea, a cambio de dinero u otro artículo de valor”. Conocer el cliente es fundamental para el buen desarrollo del trabajo, es importante dar una buena primera impresión, mediante la empatía, el ingenio y las buenas ideas para su proyecto. Cuando hay un buen ambiente entre cliente y el diseñador, publicista o agencia de mercadeo, es muy factible asegurar en gran parte el éxito de la campaña.
+                    p Nunca hay que comenzar un trabajo sin saber lo que el cliente desea del mismo; cuál es la visión de su producto, como ve su propia empresa, si es objetivo respecto a la misma o un poco soñador, esto dará una visión particular del camino que debe recorrer.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img1.jpg')
+                .cajon.color-primario.p-4
+                  .row.align-items-start
+                    .col-4.col-lg-auto
+                      figure
+                        img(src='@/assets/curso/tema2/img22.svg')
+                    .col-lg
+                      p.mb-0 Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del brief, como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; se debe recordar que, aunque usted sea la mente creativa, no se trabaja para sí mismo sino para otra persona.
+          div(x="42.4%" y="51%" tooltip="Retroalimentación de propuestas" numero="2")
+            .row
+              .col-12
+                h4 Retroalimentación de propuestas
+                .row
+                  .col-lg-7
+                    p Como retroalimentación se designa el método de control de sistemas en el cual los resultados obtenidos de una tarea o actividad son reintroducidos nuevamente en el sistema con el fin de controlar y optimizar su comportamiento. Como tal, la retroalimentación se aplica prácticamente a cualquier proceso que involucre mecánicas semejantes de ajuste y autorregulación de un sistema (Coelho, 2019).
+                    p La retroalimentación entre el emisor y #[b el receptor se considera el aspecto más importante a tener en cuenta en la comunicación; el receptor a partir del mensaje recibido por el emisor, puede establecer una comunicación efectiva] es decir, un intercambio de información en doble vía, que permitirá intensificar las conductas positivas del mensaje, disponer de herramientas creativas a fin de entender y percibir de la mejor manera la información para configurar, cambiar o mejorar el mensaje de su interlocutor. La retroalimentación obedece a ciertos pasos importantes que son:
+                    ul.lista-ul
+                      li.mb-0
+                        i.fas.fa-angle-right
+                        | La planificación.
+                      li.mb-0
+                        i.fas.fa-angle-right
+                        | La ejecución.
+                      li
+                        i.fas.fa-angle-right
+                        | El cierre.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img2.jpg')
+          div(x="49.4%" y="36%" tooltip="La planificación" numero="3")
+            .row
+              .col-12
+                h4 La planificación
+                .row
+                  .col-lg-7
+                    p Antes de iniciar cualquier actividad es indispensable realizar una planificación, esta nos provee los pasos necesarios para una consecución exitosa de cualquier tarea, esto aplica en la retroalimentación o #[i feedback]; es importante definir el objetivo, identificar cuál es el problema o la pregunta que se desea responder, cuáles son las incógnitas a despejar que permitan una mejor comprensión de la situación; de esta manera, poder recopilar la información necesaria, relevante y exacta, que por pequeña que parezca puede llegar a ser muy valiosa.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img23.svg')
+          div(x="56.5%" y="47.8%" tooltip="La ejecución" numero="4")
+            .row
+              .col-12
+                h4 La ejecución
+                .row
+                  .col-lg-7
+                    p Es importante formular las preguntas pertinentes y necesarias, estas permiten la interacción con el equipo de trabajo, y con ello ampliar y contribuir con las propuestas que no se han logrado concretar; así se contará con diferentes puntos de vista que permitirán observar otras aristas del problema, otras áreas por recorrer, otras soluciones para abordar. ¿Cómo consideran que se ve el empaque de color rojo?, solo a partir de esta pregunta permitirá, inclusive, generar un plan de acción. El integrar al proceso a todos los implicados conlleva a que la ejecución no sea una meta de un solo elemento aislado sino más bien sea un éxito planeado desde lo grupal.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img24.svg')
+          div(x="66.4%" y="47.8%" tooltip="El cierre" numero="5")
+            .row
+              .col-12
+                h4 El cierre
+                .row
+                  .col-lg-7
+                    p Una vez terminada la sesión de retroalimentación es importante hacer un resumen de la misma, los puntos que se aclaran, los objetivos y acuerdos a los que se llegaron, para que el #[i feedback] sea realmente efectivo y lleve a una ganancia personal, del equipo, la empresa y por supuesto el cliente.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img25.svg')
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.bg-color5
         .p-4
           .row.justify-content-center.align-items-center
@@ -324,15 +395,15 @@
               figure.mb-4.mb-lg-0
                 img(src='@/assets/curso/tema2/img16.svg').m-auto
             .col-lg.mb-4.mb-lg-0
-              h4 Modelos #[i Brief]
+              h4 Modelos #[i brief]
               p.mb-0 Para conocer y familiarizarse con diversos formatos para recopilar información con mayor claridad, descargue el siguiente documento.
             .col-auto.col-lg-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-8
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.dropbox.com/sh/00se7o7b5rognuk/AACYMVT5uomC8VqLN_0vuKoJa?dl=0" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -341,7 +412,7 @@
     #t_2_3
     .titulo-segundo.color-acento-contenido
       h2 2.3 Diseño, creatividad e innovación
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
         p Tratar de sintetizar un proceso creativo y poder analizar cada fase para la generación de ideas no se considera posible, aunque el profesor inglés, Graham Wallas, se acercó bastante y ha sido su estudio pragmático uno de los más aceptados al momento de la creación de cualquier proceso creativo.
         p El doctor Wallas divide su proceso en cuatro grandes etapas, pero antes se debe definir qué es un proceso creativo.
@@ -357,12 +428,12 @@
         figure
           img(src='@/assets/curso/tema2/img14.png')
     h5.mb-5 A continuación, conocerá las etapas del proceso creativo:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-12
         figure
           img(src='@/assets/curso/tema2/img18.svg')
     p.mb-5 No solo la producción de ideas entra en el ámbito de la creatividad, también los métodos con los que se va a trabajar pueden ser creativos. Incluso el clima del lugar de trabajo o la sala de reuniones donde se produce la “tormenta de ideas” puede ser un espacio creativo.
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
         p Hay muchos mitos en torno a la creatividad y uno de los que se debe descartar es que la creatividad es patrimonio de los genios. Hay personas que son creativas y otras que se “vuelven creativas”. #[b Las investigaciones han demostrado que cada persona es capaz de desarrollar y desplegar su propia creatividad].
         p Recopilar información es quizás la fase más importante, pues se tendrá la oportunidad de comprobar que, cuando el proyecto fracasa, hay que regresar a la casilla de salida que es, precisamente, aquella donde nacieron las ideas base del proyecto. En este punto, se hace necesario escribir y pensar la dirección que se va a tomar y que se necesita para llevar a cabo todos los planteamientos del proyecto.
@@ -377,18 +448,33 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/tema2/img15.png')
-    h5.mb-5 Existen diversos tipos de bloqueo, como son
+    h5.mb-5 Existen diversos tipos de bloqueo, como son:
     .row.justify-content-center.mb-5
-      .col-12.col-lg.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img16.png')
-      .col-12.col-lg.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img20.svg')
-      .col-12.col-lg
-        figure
-          img(src='@/assets/curso/tema2/img17.png')
-    .row.mb-5
+      .col-10.col-lg-auto.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img16.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h4 Bloqueos mentales
+              p Son los que están relacionados con esos pensamientos ya construidos y que bloquean toda idea nueva, para los cuales se pueden tener pensamientos divergentes, rompiendo rutinas y reconfigurando ideas y procesos para avanzar.
+      .col-10.col-lg-auto.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img20.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h4 Bloqueos emocionales
+              p Relacionados con imaginar los peores escenarios, y es acá donde se tiende a pensar en las fatalidades y se considera que renunciar es la mejor opción.
+      .col-10.col-lg-auto
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h4 Bloqueos perceptivos
+              p Limitan la forma de ver el mundo y terminan por acabar con todas las ideas.
+    .row.mb-5(data-aos="fade-right")
       .col-lg-5.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img18.png')
@@ -403,7 +489,7 @@
               img(src='@/assets/curso/tema1/img3.svg').m-auto
           .col
             h4.mb-0 Psicología de la imagen
-    .row
+    .row(data-aos="fade-left")
       .col-lg-7.mb-4.mb-lg-0
         p Si observa a las personas en la calle, puede llegar a imaginar qué hacen, a qué se dedican, si trabajan, estudian o están desempleados; esto se debe a que, en nuestra imaginación, realizamos asociaciones por medio de la imagen. Por ejemplo, se puede asociar el uniforme azul antifluido con un médico, a pesar de que este puede ser utilizado por una manicurista, un aseador, un peluquero o una enfermera. 
         p Tanto el lenguaje corporal como la ropa, los movimientos y demás pueden delatar más de lo que se desea revelar. La psicología no solo funciona con la imagen, funciona con el color, el comportamiento, los gustos y demás aspectos de la vida cotidiana. Se podría decir que cada cosa que se utiliza cuenta algo de cada persona.
