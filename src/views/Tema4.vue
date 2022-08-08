@@ -43,7 +43,7 @@
             li
               i.fas.fa-circle(style="color: #EA3584")
               |  Es una nueva perspectiva empresarial respecto a la relación simbólica que se establece entre una marca y su consumidor potencial.
-    p.mb-5 #[b Para identificar un insight, se deben tener presente los siguientes elementos:]
+    p.mb-5 #[b Para identificar un #[I insight], se deben tener presente los siguientes elementos:]
     .row.mb-5(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
         LineaTiempoD.color-secundario

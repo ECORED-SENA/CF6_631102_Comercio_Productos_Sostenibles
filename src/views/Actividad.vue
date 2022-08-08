@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de conceptos de comunicación, estructura del mensaje y normativa de la comunicación.
-        p.mb-4 #[b Objetivo]. Identificar los conceptos acerca de la comunicación integral y la normativa relacionada con el fin de afianzar los conocimientos adquiridos en el componente.
+          h2 Autoevaluación de conceptos de comunicación, estructura del mensaje y normativa de la comunicación
+        p.mb-4 Identificar los conceptos acerca de la comunicación integral y la normativa relacionada con el fin de afianzar los conocimientos adquiridos en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

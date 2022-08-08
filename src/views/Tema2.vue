@@ -29,7 +29,7 @@
                 img(src='@/assets/curso/tema2/img2.svg').m-auto
             .col-lg.mb-4.mb-lg-0
               h4 #[i Brief]
-              p.mb-0 A continuación, observe el video #[i Brief] para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
+              p.mb-0 A continuación, observe el video #[i brief] para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
       .col-lg-10
         figure
           .video
@@ -43,7 +43,7 @@
               figure.mb-4.mb-lg-0
                 img(src='@/assets/curso/tema2/img2.svg').m-auto
             .col-lg.mb-4.mb-lg-0
-              h4 #[i Brief] o #[i Briefing]
+              h4 #[i Brief] o #[i briefing]
               p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video: el #[b #[i brief]] o #[i #[b briefing]].
       .col-lg-10
         figure
@@ -318,6 +318,16 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema2/img15.svg', alt='Texto que describa la imagen')
+          div(x="49.4%" y="36%" tooltip="La planificación" numero="3")
+            .row
+              .col-12
+                h4 La planificación
+                .row
+                  .col-lg-7
+                    p Antes de iniciar cualquier actividad es indispensable realizar una planificación, esta nos provee los pasos necesarios para una consecución exitosa de cualquier tarea, esto aplica en la retroalimentación o #[i feedback]; es importante definir el objetivo, identificar cuál es el problema o la pregunta que se desea responder, cuáles son las incógnitas a despejar que permitan una mejor comprensión de la situación; de esta manera, poder recopilar la información necesaria, relevante y exacta, que por pequeña que parezca puede llegar a ser muy valiosa.
+                  .col-lg-5
+                    figure
+                      img(src='@/assets/curso/tema2/img23.svg')
           div(x="13%" y="59%" tooltip="Conociendo al cliente. Revisar la información" numero="1")
             .row
               .col-12
@@ -357,16 +367,7 @@
                   .col-lg-5
                     figure
                       img(src='@/assets/curso/tema2/img2.jpg')
-          div(x="49.4%" y="36%" tooltip="La planificación" numero="3")
-            .row
-              .col-12
-                h4 La planificación
-                .row
-                  .col-lg-7
-                    p Antes de iniciar cualquier actividad es indispensable realizar una planificación, esta nos provee los pasos necesarios para una consecución exitosa de cualquier tarea, esto aplica en la retroalimentación o #[i feedback]; es importante definir el objetivo, identificar cuál es el problema o la pregunta que se desea responder, cuáles son las incógnitas a despejar que permitan una mejor comprensión de la situación; de esta manera, poder recopilar la información necesaria, relevante y exacta, que por pequeña que parezca puede llegar a ser muy valiosa.
-                  .col-lg-5
-                    figure
-                      img(src='@/assets/curso/tema2/img23.svg')
+          
           div(x="56.5%" y="47.8%" tooltip="La ejecución" numero="4")
             .row
               .col-12
