@@ -26,22 +26,22 @@
     p.mb-5 #[b Estas son varias definiciones que lo pueden orientar sobre qué es un #[i insight]:]
     .row.mb-5(data-aos="fade-left")
       .col-12
-        .cajon.color-secundario.p-5
-          ul
+        .cajon.color-primario.p-5
+          ul.lista-ul
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Un #[i insight] es una comprensión de las necesidades reales expresadas y no expresadas por los clientes.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Un enfoque de necesidades y deseos.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Valor o creencia que dispara la conducta de compra y consumo.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Detectar qué hay en la mente y en el corazón del cliente.
             li
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Es una nueva perspectiva empresarial respecto a la relación simbólica que se establece entre una marca y su consumidor potencial.
     p.mb-5 #[b Para identificar un #[I insight], se deben tener presente los siguientes elementos:]
     .row.mb-5(data-aos="fade-right")
@@ -111,21 +111,76 @@
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         .row.justify-content-center
-          .col-7.col-lg.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema4/img3.svg')
-          .col-7.col-lg.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema4/img4.svg')
-          .col-7.col-lg.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema4/img5.svg')
-          .col-7.col-lg.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema4/img6.svg')
-          .col-7.col-lg
-            figure
-              img(src='@/assets/curso/tema4/img7.svg')
+          .col-7.col-lg.m-2
+            .row.justify-content-center
+              .col-auto
+                .fig-position1
+                  figure
+                    img(src='@/assets/curso/tema4/img3.svg')
+              .col-12.px-4.py-5.bg-color24
+                .row.h-100.align-items-center
+                  .col-12
+                    p.mb-0.text-center #[b Enganchar más consumidores]
+              .col-auto
+                .fig-position2
+                  figure
+                    img(src='@/assets/curso/tema4/img12.svg')
+          .col-7.col-lg.m-2
+            .row.justify-content-center
+              .col-auto
+                .fig-position1
+                  figure
+                    img(src='@/assets/curso/tema4/img4.svg')
+              .col-12.px-4.py-5.bg-color25
+                .row.h-100.align-items-center
+                  .col-12
+                    p.mb-0.text-center #[b Generan confianza]
+              .col-auto
+                .fig-position2
+                  figure
+                    img(src='@/assets/curso/tema4/img13.svg')
+          .col-7.col-lg.m-2
+            .row.justify-content-center
+              .col-auto
+                .fig-position1
+                  figure
+                    img(src='@/assets/curso/tema4/img5.svg')
+              .col-12.px-4.py-5.bg-color24
+                .row.h-100.align-items-center
+                  .col-12
+                    p.mb-0.text-center #[b Aumentan las ventas]
+              .col-auto
+                .fig-position2
+                  figure
+                    img(src='@/assets/curso/tema4/img14.svg')
+          .col-7.col-lg.m-2
+            .row.justify-content-center
+              .col-auto
+                .fig-position1
+                  figure
+                    img(src='@/assets/curso/tema4/img6.svg')
+              .col-12.px-4.py-5.bg-color25
+                .row.h-100.align-items-center
+                  .col-12
+                    p.mb-0.text-center #[b Lanzamiento de productos exitosos]
+              .col-auto
+                .fig-position2
+                  figure
+                    img(src='@/assets/curso/tema4/img15.svg')
+          .col-7.col-lg.m-2
+            .row.justify-content-center
+              .col-auto
+                .fig-position1
+                  figure
+                    img(src='@/assets/curso/tema4/img7.svg')
+              .col-12.px-4.py-5.bg-color24
+                .row.h-100.align-items-center
+                  .col-12
+                    p.mb-0.text-center #[b Publicidad y campañas de marketing efectivas]
+              .col-auto
+                .fig-position2
+                  figure
+                    img(src='@/assets/curso/tema4/img16.svg')
     p La estructura de los #[i insights] parte de una técnica sólida de creación que requiere de un proceso multidimensional donde se incluyan los siguientes elementos:
     .row.bg-color22(data-aos="fade-right")
       .col-12.p-5
@@ -156,22 +211,22 @@
         p La elección de la metodología y técnica depende de los objetivos y el tipo de investigación que se lleve a cabo, a continuación, se presentan algunas herramientas usadas para la generación de #[i insights]:
     .row(data-aos="fade-left")
       .col-12
-        .cajon.color-primario.p-5
-          ul.mb-4
+        .cajon.color-secundario.p-5
+          ul.lista-ul.mb-4
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Es importante consultar bases de datos de instituciones gubernamentales y no gubernamentales.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Ubique grupos focales (técnica cualitativa de estudio de opinión del público).
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Haga una entrevista a profundidad.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Realice encuestas tanto físicas como #[i online] (en línea).
             li
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Cree comunidades #[i online].
           p.mb-0 Estas herramientas trabajan en conjunto para conseguir información precisa que aporte valor significativo para los objetivos de la investigación, contribuyendo a entender la percepción y el accionar estratégico del comportamiento del consumidor.
       

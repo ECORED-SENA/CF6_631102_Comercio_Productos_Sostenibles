@@ -13,7 +13,7 @@
     p.mb-5(data-aos="fade-left") El #[i brief] o #[i briefing] #[span.txt-color2 es un documento tipo instructivo que se realiza en el sector publicitario.] Este es elaborado por el ejecutivo de cuenta o el diseñador, a partir de la información que brinda el cliente respecto a su producto.  Este documento es entregado al diseñador en la etapa inicial del proyecto, es aquí donde se definen todos los objetivos que se desean cumplir. Los apartados del #[i brief] incluyen la descripción del producto, la empresa, marca, sector al que pertenece, evolución gráfica, evolución en el tiempo, productos de la competencia, ventajas sobre otras marcas, localización, posicionamiento a futuro, cultura corporativa, etc.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.px-0
-        .cajon.color-primario.p-4
+        .cajon.color-secundario.p-4
           .row.align-items-center
             .col-auto
               figure.mb-4.mb-lg-0
@@ -236,7 +236,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
         p Queda claro que el #[i brief] es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto.
-        .cajon.color-primario.p-4
+        .cajon.color-secundario.p-4
           .row.align-items-center
             .col-auto
               figure
@@ -261,56 +261,70 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img8.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Delimitación demográfica
-              p.text-center Delimitar demográfica y conductualmente el rango de personas que son o van a ser clientes objetivos del producto. La delimitación demográfica puede ser de gran importancia, pues ayuda a entender un sinfín de variables respecto al consumidor.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Delimitación demográfica
+                  p.text-center Delimitar demográfica y conductualmente el rango de personas que son o van a ser clientes objetivos del producto. La delimitación demográfica puede ser de gran importancia, pues ayuda a entender un sinfín de variables respecto al consumidor.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img9.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Nicho de mercado
-              p.text-center Edad a la cual va a ser dirigido, nicho de mercado (porción o segmento de éste). Es importante hacer un estudio preciso de este punto, ya que no todos los productos son para todas las edades, por ejemplo, un videojuego no es un producto muy factible para un padre de familia, pero sí para su hijo.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Nicho de mercado
+                  p.text-center Edad a la cual va a ser dirigido, nicho de mercado (porción o segmento de éste). Es importante hacer un estudio preciso de este punto, ya que no todos los productos son para todas las edades, por ejemplo, un videojuego no es un producto muy factible para un padre de familia, pero sí para su hijo.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Identificación por sexo
-              p.text-center Algunos productos son utilizados tanto por hombres como por mujeres, sin embargo, algunos son de uso exclusivo de un solo grupo, por ejemplo, la espuma de afeitar.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Identificación por sexo
+                  p.text-center Algunos productos son utilizados tanto por hombres como por mujeres, sin embargo, algunos son de uso exclusivo de un solo grupo, por ejemplo, la espuma de afeitar.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img11.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Ubicación geográfica
-              p.text-center La ubicación geográfica es muy importante a tener en cuenta. Por ejemplo, tratar de vender una ruana en Tunja y en Cartagena; a pesar de ser dos ciudades de un mismo país, es un producto que solo se venderá en una de ellas, dadas sus condiciones climáticas.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Ubicación geográfica
+                  p.text-center La ubicación geográfica es muy importante a tener en cuenta. Por ejemplo, tratar de vender una ruana en Tunja y en Cartagena; a pesar de ser dos ciudades de un mismo país, es un producto que solo se venderá en una de ellas, dadas sus condiciones climáticas.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img12.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Nivel educativo
-              p.text-center El nivel educativo determina muchas acciones respecto a la acción de compra. Por ejemplo, una persona analfabeta posiblemente nunca se dirija a una librería a comprar un libro.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Nivel educativo
+                  p.text-center El nivel educativo determina muchas acciones respecto a la acción de compra. Por ejemplo, una persona analfabeta posiblemente nunca se dirija a una librería a comprar un libro.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img13.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Poder adquisitivo
-              p.text-center Es muy importante determinar a quién va encaminado el producto, por ejemplo, un reloj de lujo va dirigido a un grupo en particular.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Poder adquisitivo
+                  p.text-center Es muy importante determinar a quién va encaminado el producto, por ejemplo, un reloj de lujo va dirigido a un grupo en particular.
       .col-10.col-lg-3.p-2
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img14.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4.text-center Hábitos de consumo
-              p.text-center Por ejemplo, hoy en día, hay muchas personas que han optado por una alimentación vegana, vegetariana, celíaca, o simplemente personas que pueden consumir todos los tipos de alimentos, por diferentes motivos.
+              .row.h-100.align-items-center
+                .col-12
+                  h4.text-center Hábitos de consumo
+                  p.text-center Por ejemplo, hoy en día, hay muchas personas que han optado por una alimentación vegana, vegetariana, celíaca, o simplemente personas que pueden consumir todos los tipos de alimentos, por diferentes motivos.
     p.mb-5(data-aos="fade-right") Reconocer a quién va dirigido (#[b público objetivo]) ayudará a identificar los detalles del producto o la marca y las estrategias que se deberán seguir, permitiéndole al diseñador establecer el punto de partida para entender cómo desarrollar la campaña con una propuesta innovadora y cuáles serán los objetivos a conseguir, asimismo, definir los medios más eficientes a utilizar en la estrategia de diseño. Por lo anterior, revise con mucho detenimiento la siguiente presentación, que le ayudará a profundizar este tema tan importante:
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
@@ -417,7 +431,7 @@
       .col-lg-7.mb-4.mb-lg-0
         p Tratar de sintetizar un proceso creativo y poder analizar cada fase para la generación de ideas no se considera posible, aunque el profesor inglés, Graham Wallas, se acercó bastante y ha sido su estudio pragmático uno de los más aceptados al momento de la creación de cualquier proceso creativo.
         p El doctor Wallas divide su proceso en cuatro grandes etapas, pero antes se debe definir qué es un proceso creativo.
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           .row.align-items-center
             .col-auto
               figure
@@ -438,7 +452,7 @@
       .col-lg-7.mb-4.mb-lg-0
         p Hay muchos mitos en torno a la creatividad y uno de los que se debe descartar es que la creatividad es patrimonio de los genios. Hay personas que son creativas y otras que se “vuelven creativas”. #[b Las investigaciones han demostrado que cada persona es capaz de desarrollar y desplegar su propia creatividad].
         p Recopilar información es quizás la fase más importante, pues se tendrá la oportunidad de comprobar que, cuando el proyecto fracasa, hay que regresar a la casilla de salida que es, precisamente, aquella donde nacieron las ideas base del proyecto. En este punto, se hace necesario escribir y pensar la dirección que se va a tomar y que se necesita para llevar a cabo todos los planteamientos del proyecto.
-        .cajon.color-secundario.p-4
+        .cajon.color-primario.p-4
           .row.align-items-center
             .col-auto
               figure
@@ -451,30 +465,36 @@
           img(src='@/assets/curso/tema2/img15.png')
     h5.mb-5 Existen diversos tipos de bloqueo, como son:
     .row.justify-content-center.mb-5
-      .col-10.col-lg-auto.mb-4.mb-lg-0
+      .col-10.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img16.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4 Bloqueos mentales
-              p Son los que están relacionados con esos pensamientos ya construidos y que bloquean toda idea nueva, para los cuales se pueden tener pensamientos divergentes, rompiendo rutinas y reconfigurando ideas y procesos para avanzar.
-      .col-10.col-lg-auto.mb-4.mb-lg-0
+              .row.h-100.align-items-center
+                .col-12
+                  h4 Bloqueos mentales
+                  p Son los que están relacionados con esos pensamientos ya construidos y que bloquean toda idea nueva, para los cuales se pueden tener pensamientos divergentes, rompiendo rutinas y reconfigurando ideas y procesos para avanzar.
+      .col-10.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img20.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4 Bloqueos emocionales
-              p Relacionados con imaginar los peores escenarios, y es acá donde se tiende a pensar en las fatalidades y se considera que renunciar es la mejor opción.
-      .col-10.col-lg-auto
+              .row.h-100.align-items-center
+                .col-12
+                  h4 Bloqueos emocionales
+                  p Relacionados con imaginar los peores escenarios, y es acá donde se tiende a pensar en las fatalidades y se considera que renunciar es la mejor opción.
+      .col-10.col-lg-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h4 Bloqueos perceptivos
-              p Limitan la forma de ver el mundo y terminan por acabar con todas las ideas.
+              .row.h-100.align-items-center
+                .col-12
+                  h4 Bloqueos perceptivos
+                  p Limitan la forma de ver el mundo y terminan por acabar con todas las ideas.
     .row.mb-5(data-aos="fade-right")
       .col-lg-5.mb-4.mb-lg-0
         figure
@@ -494,7 +514,7 @@
       .col-lg-7.mb-4.mb-lg-0
         p Si observa a las personas en la calle, puede llegar a imaginar qué hacen, a qué se dedican, si trabajan, estudian o están desempleados; esto se debe a que, en nuestra imaginación, realizamos asociaciones por medio de la imagen. Por ejemplo, se puede asociar el uniforme azul antifluido con un médico, a pesar de que este puede ser utilizado por una manicurista, un aseador, un peluquero o una enfermera. 
         p Tanto el lenguaje corporal como la ropa, los movimientos y demás pueden delatar más de lo que se desea revelar. La psicología no solo funciona con la imagen, funciona con el color, el comportamiento, los gustos y demás aspectos de la vida cotidiana. Se podría decir que cada cosa que se utiliza cuenta algo de cada persona.
-        .cajon.color-primario.p-4
+        .cajon.color-secundario.p-4
           .row.align-items-start
             .col-auto
               figure.mb-4.mb-lg-0

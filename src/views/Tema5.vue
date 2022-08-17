@@ -33,21 +33,48 @@
           img(src='@/assets/curso/tema5/img2.svg').m-auto
     p.mb-5 El universo de una historia transmedia tiene tres componentes clave como matriz de información para la expansión de los relatos:
     .row.bg-color23
-      .col-12.p-4
+      .col-12.p-5
         .row.justify-content-center.mb-4(data-aos="fade-right")
-          .col-lg-10
+          .col-lg-8
             .row.justify-content-center
-              .col-12.col-lg
-                figure
-                  img(src='@/assets/curso/tema5/img3.svg').m-auto
-              .col-12.col-lg
-                figure
-                  img(src='@/assets/curso/tema5/img4.svg').m-auto
-              .col-12.col-lg
-                figure
-                  img(src='@/assets/curso/tema5/img5.svg').m-auto
+              .col-10.col-lg.m-3.bg-color26
+                .row
+                  .col-12.px-4.pt-5.pb-3
+                    .row.align-items-start.mb-4
+                      .col-4
+                        figure
+                          img(src='@/assets/curso/tema5/img6.svg')
+                      .col-3
+                        p.mb-0 #[b Mythos]
+                    .row
+                      .col-12
+                        p.fig-position4 Hacen parte del o los conflictos, los personajes, los mitos, las leyes naturales y mágicas que rigen el universo, es decir, es la historia como tal.
+              .col-10.col-lg.m-3.bg-color27
+                .row
+                  .col-12.px-4.pt-5.pb-3
+                    .row.align-items-start.mb-4
+                      .col-4
+                        figure
+                          img(src='@/assets/curso/tema5/img7.svg')
+                      .col-3
+                        p.mb-0 #[b Etho]
+                    .row
+                      .col-12
+                        p.fig-position4 Hacen parte de él: los sistemas de valores y las relaciones, protocolos que se permite y que no en el contexto del universo.
+              .col-10.col-lg.m-3.bg-color28
+                .row
+                  .col-12.px-4.pt-5.pb-3
+                    .row.align-items-start.mb-4
+                      .col-4
+                        figure
+                          img(src='@/assets/curso/tema5/img8.svg')
+                      .col-3
+                        p.mb-0 #[b Topos]
+                    .row
+                      .col-12
+                        p.fig-position4 Hace referencia al tiempo o espacio en el que transcurre dicho universo.
         .row(data-aos="fade-left")
-          .col-lg-9
+          .col-lg-9.mb-4.mb-lg-0
             .cajon.color-acento-contenido.p-4
               p El protocolo para contar una buena historia está basado en las técnicas que se utilizan para generar un buen #[i engagement]; a continuación, se presentan siete técnicas para lograrlo:
               ol.lista-ol--cuadro

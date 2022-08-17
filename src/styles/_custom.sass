@@ -66,10 +66,10 @@
 .img-infografica__item, .img-infografica-b__item
   width: 8%
 
-.cajon.color-primario
+.cajon.color-secundario
   background-color: #FFFAE7
 
-.cajon.color-primario::before
+.cajon.color-secundario::before
   background-color: #FFCE1D
 
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
@@ -90,20 +90,10 @@
 .linea-tiempo-c__header__item__line-container::after, .linea-tiempo-c__header__item__line-container::before
   background-color: #26CCDA
 
-.tarjeta-flip
-  width: 300px
-  height: 390px
-
 .tarjeta-flip.color-primario .tarjeta-flip__contenido
   background-color: #6826CC
   h4,p
     color: #FFF
-
-.cajon.color-secundario
-  background-color: #FFE0F0
-
-.cajon.color-secundario::before
-  background-color: #EA3584
 
 .bloque-texto-g.color-secundario
   background-color: #EA3584
@@ -156,6 +146,30 @@
   i
     color: #000
 
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    border-color: #6826CC
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container::before
+  background-color: #6826CC
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container::before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container::after
+  background-color: #6826CC
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  border-color: #6826CC
+
+.linea-tiempo-c__header__item__line-container::after, .linea-tiempo-c__header__item__line-container::before
+  background-color: #FFF
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #6826CC
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot::after
+  background-color: #6826CC
+
+.linea-tiempo-c__header__item__dot
+  border: 3px solid #EA3584
+
 .bg-color1
   background-image: url(../assets/curso/tema1/img1.svg)
   background-repeat: no-repeat
@@ -180,6 +194,7 @@
 .bg-color7
   background-image: url(../assets/curso/tema1/img5.svg)
   background-repeat: no-repeat
+  margin-inline: -3.2rem !important
 
 .bg-color8
   background-color: #FFEEB0
@@ -247,6 +262,43 @@
 
 .bg-color23
   background-color: #FFFAE7
+  margin-inline: -3.2rem !important
+  margin-bottom: -48px
+
+.bg-color24
+  background-color: #FFE0F0
+  height: 180px
+
+.bg-color25
+  background-color: #FFFAE7
+  height: 180px
+
+.bg-color26
+  background-color: #FFE0F0
+  border-radius: 15px
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
+  background-image: url(../assets/curso/tema5/img9.svg)
+  background-repeat: no-repeat
+  background-position-x: 90%
+  background-position-y: 90%
+
+.bg-color27
+  background-color: #EBE3F9
+  border-radius: 15px
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
+  background-image: url(../assets/curso/tema5/img10.svg)
+  background-repeat: no-repeat
+  background-position-x: 90%
+  background-position-y: 90%
+
+.bg-color28
+  background-color: #A2A7C5
+  border-radius: 15px
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
+  background-image: url(../assets/curso/tema5/img11.svg)
+  background-repeat: no-repeat
+  background-position-x: 90%
+  background-position-y: 90%
 
 .txt-color1
   color: #EA3584
@@ -260,6 +312,22 @@
 .txt-color3
   color: #6826CC
   font-weight: bold
+
+.fig-position1
+  position: relative
+  top: 20px
+
+.fig-position2
+  position: relative
+  top: -20px
+
+.fig-position3
+  position: relative
+  top: 220px
+  z-index: 1 !important
+
+.fig-position4
+  z-index: 3 !important
 
 @media screen and ( max-width: 992px )
 
@@ -275,3 +343,6 @@
   .bg-color11
     background-image: none
     background-color: #EBE3F9
+
+  .bg-color23
+    margin-bottom: -24px

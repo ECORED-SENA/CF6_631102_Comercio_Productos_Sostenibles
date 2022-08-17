@@ -20,8 +20,8 @@
     .row.bg-color12(data-aos="fade-right")
       .col-12.p-5
         p.mb-5 En cuanto a la comunicación para la venta de productos sostenibles que crece cada día más a nivel mundial, #[span.txt-color1 los compradores tienen derecho a recibir información clara de los distintos productos y servicio que ofrece el mercado], es necesario que el vendedor maneje conocimientos sobre las especificaciones, la composición, calidad, precio y riesgo que tenga cada uno de ellos, con el objetivo de transmitir los principios para comunicar la sostenibilidad de productos, la información que le transmitan al consumidor le debe permitir que él pueda leer, comparar y elegir lo que va a comprar.
-        .row.mb-5
-          .col-12
+        .row.justify-content-center.mb-5
+          .col-10
             figure
               img(src='@/assets/curso/tema3/img2.png')
         p A pesar de que el mercado de productos sostenibles va en crecimiento, el volumen de información que llega al consumidor se transmite de forma imprecisa, indefinida o irrelevante, esto es fundamental a la hora de orientar al cliente, ya que con esto dan a los consumidores información eficaz sobre la sostenibilidad de productos.
@@ -49,7 +49,7 @@
     p Un aspecto fundamental del formato es la codificación, estratégicamente representa el manejo del modelo estándar de la comunicación entre el anunciante y la audiencia, permite abreviar la información necesaria en argumentos y conceptos organizados de manera que facilite la transmisión, difusión y comprensión del mensaje.
     p.mb-5 #[b A continuación, se ilustra la estructura del mensaje: ]
     .row.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg-10
+      .col-lg-8
         figure
           img(src='@/assets/curso/tema3/img3.svg')
     p.mb-5 Para que el proceso de comunicación se haga efectivo para el público, se hace necesario darse a entender, convirtiendo una idea en un hecho objetivo, para que llegue al interlocutor, por lo anterior, la emisión del mensaje debe considerarse como un acto que necesita correlación entre la planeación del contenido que coteja el publicista y el significado o validez que el público reciba.
@@ -69,26 +69,31 @@
           img(src='@/assets/curso/tema3/img4.svg')
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-8
-        .cajon.color-secundario.p-5
+        .cajon.color-primario.p-5
           p.mb-5 #[b La comunicación cumple con una serie de funciones y depende de los objetivos propuestos:]
           .row
             .col.mb-4.mb-lg-0
-              ul
+              ul.lista-ul
                 li.mb-3
-                  i.fas.fa-circle(style="color: #EA3584")
-                  |   Informativa: comunicar información objetiva.
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  | 
+                  p.mb-0 #[b Informativa]: comunicar información objetiva.
                 li.mb-3
-                  i.fas.fa-circle(style="color: #EA3584")
-                  |   Expresiva: mostrar sentimientos o emociones.
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |
+                  p.mb-0 #[b Expresiva:] mostrar sentimientos o emociones.
                 li.mb-3
-                  i.fas.fa-circle(style="color: #EA3584")
-                  |   Formativa: incidir en el otro y enseñarle cosas.
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |
+                  p.mb-0 #[b Formativa:] incidir en el otro y enseñarle cosas.
                 li.mb-3
-                  i.fas.fa-circle(style="color: #EA3584")
-                  |   Persuasiva: convencer a otros de que hagan algo.
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |
+                  p.mb-0 #[b Persuasiva:] convencer a otros de que hagan algo.
                 li
-                  i.fas.fa-circle(style="color: #EA3584")
-                  |   Entretenimiento: por el gusto de comunicarse.
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |
+                  p.mb-0 #[b Entretenimiento:] por el gusto de comunicarse.
             .col-auto
               figure
                 img(src='@/assets/curso/tema3/img5.svg')
@@ -107,15 +112,15 @@
         p #[span.txt-color1 La comunicación ambiental interna] se entiende como comunicación interna los niveles y funciones que desempeñan las personas encargadas de la puesta en marcha, el progreso y el mantenimiento del sistema de gestión ambiental, donde se deben realizar:
     .row.mb-5(data-aos="fade-up")
       .col-12.bg-color14.p-5
-        ul
+        ul.lista-ul
           li.mb-3
-            i.fas.fa-circle(style="color: #EA3584")
+            i.lista-ul__vineta(style="color: #EA3584")
             |  Capacitaciones a los empleados en la política ambiental.
           li.mb-3
-            i.fas.fa-circle(style="color: #EA3584")
+            i.lista-ul__vineta(style="color: #EA3584")
             |  Relacionar el personal con el compromiso de mantener el sistema de gestión ambiental ISO14001, con el resto de los funcionarios.
           li
-            i.fas.fa-circle(style="color: #EA3584")
+            i.lista-ul__vineta(style="color: #EA3584")
             |  Mantener informada a la Alta Dirección en el caso que se den cambios, y también de los resultados que arroje el sistema de gestión ambiental.
     p.mb-5 #[span.txt-color1 La comunicación ambiental externa] se da especialmente con las personas que puedan ser afectadas por el aspecto ambiental de la organización y del sistema de gestión ambiental; además, la puesta en marcha de la política ambiental es una manera de comunicarse con el exterior.
     .row.bg-color15(data-aos="fade-right")
@@ -157,40 +162,41 @@
             p.text-center Conocer el nombre de la entidad que va a verificar el sistema de gestión ambiental.
     .row(data-aos="fade-up")
       .col-12
-        .cajon.color-primario.p-5
+        .cajon.color-secundario.p-5
           p #[b Se hacen las siguientes recomendaciones a la hora de implementar un sistema de gestión ambiental:]
-          ul.mb-4
+          ul.lista-ul
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  Crear y mantener la manera de recibir la documentación y contestar las comunicaciones de la empresa.
             li.mb-3
-              i.fas.fa-circle(style="color: #EA3584")
+              i.lista-ul__vineta(style="color: #EA3584")
               |  El documento que contenga la política ambiental de la empresa debe ser accesible al público.
-            li
-              i.fas.fa-circle(style="color: #EA3584")
+            li.mb-4
+              i.lista-ul__vineta(style="color: #EA3584")
               |  La declaración ambiental debe identificar los cambios que se producen en la declaración anterior.
-          ul.ms-5
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Tiene que estar escrita de forma clara y entendible para todo tipo de público.
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Debe contener y relatar las actividades de los procesos ambientales, con la actuación y política ambientales.
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Debe presentar resumen de las cifras sobre emisiones significativas.
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Debe incluir la política ambiental.
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Tiene que existir la fecha tope de la siguiente declaración ambiental.
-            li.mb-3
-              i.far.fa-circle(style="color: #EA3584")
-              |  Debe tener el nombre del auditor del sistema de gestión ambiental.
             li
-              i.far.fa-circle(style="color: #EA3584")
-              |  Se tiene que preparar de forma anual la declaración ambiental que simplifica e identifica los cambios significativos producidos desde la declaración anterior.
+              ul.lista-ul
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Tiene que estar escrita de forma clara y entendible para todo tipo de público.
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Debe contener y relatar las actividades de los procesos ambientales, con la actuación y política ambientales.
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Debe presentar resumen de las cifras sobre emisiones significativas.
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Debe incluir la política ambiental.
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Tiene que existir la fecha tope de la siguiente declaración ambiental.
+                li.mb-3
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Debe tener el nombre del auditor del sistema de gestión ambiental.
+                li
+                  i.lista-ul__vineta(style="color: #EA3584")
+                  |  Se tiene que preparar de forma anual la declaración ambiental que simplifica e identifica los cambios significativos producidos desde la declaración anterior.
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
@@ -224,18 +230,18 @@
           .tarjeta.bg-color20.p-3(x="67.2%" y="21.8%" numero="")
             p.mb-0 #[b Ejecutar y monitorear]: lo que no se mide no se puede gestionar, este es el último paso del plan de comunicación integral, aquí se ejecutan las acciones que haya definido y en los tiempos establecidos en el cronograma; tenga en cuenta que debe hacer seguimiento para comprobar el cumplimiento de la planificación para ver si han cumplido los resultados esperados, esto le permitirá detectar los errores y corregirlos para conseguir los objetivos planteados.
     p.mb-5 #[b Puede acudir a los siguientes indicadores para medir las acciones:]
-    ul
+    ul.lista-ul
       li.mb-3
-        i.fas.fa-circle(style="color: #EA3584")
+        i.lista-ul__vineta(style="color: #EA3584")
         |  El nivel de cumplimiento de las acciones planeadas.
       li.mb-3
-        i.fas.fa-circle(style="color: #EA3584")
+        i.lista-ul__vineta(style="color: #EA3584")
         |  Monitorear el presupuesto que está invirtiendo en cada acción.
       li.mb-3
-        i.fas.fa-circle(style="color: #EA3584")
+        i.lista-ul__vineta(style="color: #EA3584")
         |  El impacto que genera cada acción, por ejemplo, la cantidad de personas que han una acción determinada.
       li
-        i.fas.fa-circle(style="color: #EA3584")
+        i.lista-ul__vineta(style="color: #EA3584")
         |  El resultado de cada acción, por ejemplo, consultas, ventas, suscripciones, visitas a la página #[i web], etc.
 
 </template>

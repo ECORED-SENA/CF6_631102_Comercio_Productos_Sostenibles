@@ -85,14 +85,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Estructura comunicación integral',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
             titulo: 'Plan de comunicación integral',
-            hash: 't_3_4',
+            hash: 't_3_3',
           },
         ],
       },
@@ -123,26 +117,6 @@ export default {
         numero: '5',
         titulo: '<i>Storytelling</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Concepto',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'La narrativa',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Protocolos',
-            hash: 't_5_3',
-          },
-        ],
       },
     ],
     subMenu: [
