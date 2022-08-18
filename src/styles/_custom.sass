@@ -170,6 +170,11 @@
 .linea-tiempo-c__header__item__dot
   border: 3px solid #EA3584
 
+.slyder-a__bullets__item
+  width: 13px
+  height: 13px
+  margin: 0px 3px
+
 .bg-color1
   background-image: url(../assets/curso/tema1/img1.svg)
   background-repeat: no-repeat
@@ -276,29 +281,59 @@
 .bg-color26
   background-color: #FFE0F0
   border-radius: 15px
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
   background-image: url(../assets/curso/tema5/img9.svg)
   background-repeat: no-repeat
   background-position-x: 90%
   background-position-y: 90%
+  &::after
+    content: ''
+    position: relative
+    background-color: #FFFAE7
+    border-radius: 60px
+    width: 40px
+    height: 40px
+    left: -6%
+    top: -69%
+    transform: translateX(-50%)
+    display: flex
 
 .bg-color27
   background-color: #EBE3F9
   border-radius: 15px
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
   background-image: url(../assets/curso/tema5/img10.svg)
   background-repeat: no-repeat
   background-position-x: 90%
   background-position-y: 90%
+  &::after
+    content: ''
+    position: relative
+    background-color: #FFFAE7
+    border-radius: 60px
+    width: 40px
+    height: 40px
+    left: -6%
+    top: -64%
+    transform: translateX(-50%)
+    display: flex
 
 .bg-color28
   background-color: #A2A7C5
   border-radius: 15px
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset
   background-image: url(../assets/curso/tema5/img11.svg)
   background-repeat: no-repeat
   background-position-x: 90%
   background-position-y: 90%
+  &::after
+    content: ''
+    position: relative
+    background-color: #FFFAE7
+    border-radius: 60px
+    width: 40px
+    height: 40px
+    left: -6%
+    top: -50%
+    transform: translateX(-50%)
+    display: flex
 
 .txt-color1
   color: #EA3584
@@ -346,3 +381,11 @@
 
   .bg-color23
     margin-bottom: -24px
+
+  .bg-color27
+    &::after
+      top: -67%
+
+  .bg-color28
+    &::after
+      top: -60%

@@ -14,8 +14,8 @@
               img(src='@/assets/curso/tema1/img2.svg').m-auto
           .col-lg-10.bg-color2
             p.mb-0.mt-4 En Colombia se ha desarrollado el Plan Nacional de Producción y Consumo Sostenible, el cual contempla siete (7) ejes estratégicos para lograr cambios en los patrones de producción y consumo hacia la sostenibilidad. A continuación, se desarrolla cada uno de los ejes:
-    .tarjeta.tarjeta--amarilla.p-5.mb-5(data-aos="fade-left")
-      SlyderA
+    .tarjeta.tarjeta--amarilla.p-4.p-lg-5.mb-5(data-aos="fade-left")
+      SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h4 #[b Infraestructura sostenible]

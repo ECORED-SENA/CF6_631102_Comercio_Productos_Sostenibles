@@ -56,7 +56,7 @@
           img(src='@/assets/curso/tema4/img2.png', style="width:400px").m-auto
     p #[span.txt-color1 Encontrar un buen #[i insight] dará un impulso para la creatividad], tendrá una fuente de ideas para crear otros productos y servicios, el objetivo de estos es descubrir nuevos aspectos del consumidor que él desconoce de sí mismo, también identificar sus necesidades y suplirlas con sus nuevos productos y servicios, cubriendo las necesidades que él tiene y que nos las ha descubierto, esto le permitirá reposicionar la marca y con una buena campaña puede resurgir su marca y ubicarla en una buena posición en el mercado.
     p.mb-5 #[b A continuación, se muestran ejemplos en los que este concepto para una mejor comprensión:]
-    .tarjeta.tarjeta--amarilla.p-5(data-aos="fade-down")
+    .tarjeta.tarjeta--amarilla.p-4.p-lg-5(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -124,7 +124,7 @@
               .col-auto
                 .fig-position2
                   figure
-                    img(src='@/assets/curso/tema4/img12.svg')
+                    img(src='@/assets/curso/tema4/img13.svg')
           .col-7.col-lg.m-2
             .row.justify-content-center
               .col-auto
@@ -138,7 +138,7 @@
               .col-auto
                 .fig-position2
                   figure
-                    img(src='@/assets/curso/tema4/img13.svg')
+                    img(src='@/assets/curso/tema4/img12.svg')
           .col-7.col-lg.m-2
             .row.justify-content-center
               .col-auto
