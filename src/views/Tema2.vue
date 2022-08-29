@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFFFFF") 2
-      h1 #[i Brief] (documento informativo)
+      h1 #[i Brief]
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-12
         figure
@@ -44,7 +44,7 @@
                 img(src='@/assets/curso/tema2/img2.svg').m-auto
             .col-lg.mb-4.mb-lg-0
               h4 #[i Brief] o #[i briefing]
-              p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video: el #[b #[i brief]] o #[i #[b briefing]].
+              p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video: #[b #[i Brief o Briefing - Qué es y cómo hacer uno.]]
       .col-lg-10
         figure
           .video
@@ -88,7 +88,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h4 #[b #[i Briefing] creativo]
-            p Busca dar las herramientas necesarias al equipo creativo para desarrollar ideas que revolucionen e impacten de manera propositiva la campaña. Corresponde a la información detallada a nivel gráfico y visual, con toda la propuesta de piezas y acciones a desarrollar: marca, logotipo, poster, catálogo, promoción, formatos, materiales, entre otros.
+            p Busca dar las herramientas necesarias al equipo creativo para desarrollar ideas que revolucionen e impacten de manera propositiva la campaña. Corresponde a la información detallada a nivel gráfico y visual, con toda la propuesta de piezas y acciones a desarrollar: marca, logotipo, #[i poster], catálogo, promoción, formatos, materiales, entre otros.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema2/img4.svg', style="width: 350px").m-auto
@@ -131,28 +131,16 @@
             ul
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Qué producto se va a vender y en qué lugar?
+                |  Descripción de la empresa, servicios prestados, productos desarrollados y sector en el mercado.
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Cuál es el cliente potencial e ideal?
+                |  Descripción de sus competidores directos e indirectos, ventaja de valor y ventajas competitivas.
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Qué necesidades requiere suplir?
+                |  Análisis del mercado, cliente, tendencias.
               li 
                 i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Por qué y en qué se puede ayudar?
-              li 
-                i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Pertenece a algún grupo o nicho de mercado?
-              li 
-                i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Por qué ese cliente compra a la competencia?
-              li 
-                i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Qué se busca con la venta?
-              li 
-                i.fas.fa-angle-right(style="color: #F57C00")
-                |  ¿Qué objetivos y presupuesto se tienen contemplados?
+                |  Análisis del proceso de compra y adquisición.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema2/img6.svg', style="width: 350px").m-auto
@@ -359,7 +347,7 @@
                       figure
                         img(src='@/assets/curso/tema2/img22.svg')
                     .col-lg
-                      p.mb-0 Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del brief, como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; se debe recordar que, aunque usted sea la mente creativa, no se trabaja para sí mismo sino para otra persona.
+                      p.mb-0 Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del #[i brief], como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; se debe recordar que, aunque usted sea la mente creativa, no se trabaja para sí mismo sino para otra persona.
           div(x="42.4%" y="51%" tooltip="Retroalimentación de propuestas" numero="2")
             .row
               .col-12
@@ -422,7 +410,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web]. Para  reforzar sus conceptos en este tema, se le invita a visitar el siguiente enlace de Dropbox, donde podrá encontrar algunos modelos de brief, que ayudarán a recopilar la información con más claridad, ¡no deje de revisarlos!
+            p #[b Enlace web]. Para  reforzar sus conceptos en este tema, se le invita a visitar el siguiente enlace de Dropbox, donde podrá encontrar algunos modelos de #[i brief], que ayudarán a recopilar la información con más claridad, ¡no deje de revisarlos!
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido

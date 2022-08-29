@@ -233,16 +233,20 @@
     ul.lista-ul
       li.mb-3
         i.lista-ul__vineta(style="color: #EA3584")
-        |  El nivel de cumplimiento de las acciones planeadas.
+        |  
+        p.mb-0 El nivel de cumplimiento de las acciones planeadas.
       li.mb-3
         i.lista-ul__vineta(style="color: #EA3584")
-        |  Monitorear el presupuesto que está invirtiendo en cada acción.
+        |  
+        p.mb-0 Monitorear el presupuesto que está invirtiendo en cada acción.
       li.mb-3
         i.lista-ul__vineta(style="color: #EA3584")
-        |  El impacto que genera cada acción, por ejemplo, la cantidad de personas que han una acción determinada.
+        |  
+        p.mb-0 El impacto que genera cada acción, por ejemplo, la cantidad de personas que han una acción determinada.
       li
         i.lista-ul__vineta(style="color: #EA3584")
-        |  El resultado de cada acción, por ejemplo, consultas, ventas, suscripciones, visitas a la página #[i web], etc.
+        |  
+        p.mb-0 El resultado de cada acción, por ejemplo, consultas, ventas, suscripciones, visitas a la página #[i web], etc.
 
 </template>
 

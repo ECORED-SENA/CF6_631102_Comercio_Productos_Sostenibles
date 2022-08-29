@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFFFFF") 5
-      h1 #[i Storytelling] (narración de historias)
+      h1 #[i Storytelling]
     .row.mb-5(data-aos="fade-right")
       .col-lg-9
         .row.mb-4
@@ -26,7 +26,7 @@
         figure
           img(src='@/assets/curso/tema5/img2.png').m-auto
     .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Figura 4]. #[i Características historia transmedia]
+      p.mb-0 #[b Figura 1]. #[i Características historia transmedia]
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
         figure

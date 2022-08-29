@@ -313,7 +313,7 @@ export default {
     },
     {
       referencia:
-        'Nueva ISO 14001:2015. (2015). <i>ISO 14001: comunicación ambiental</i>. [Blog]. ',
+        'Nueva ISO 14001:2015. (2015). <i>ISO 14001: Comunicación ambiental</i>. [Blog]. ',
       link:
         'https://www.nueva-iso-14001.com/2015/06/iso-14001-comunicacion-ambiental/#:~:text=La%20norma%20ISO%2014001%20establece,Ambiental%20de%20una%20forma%20funcional',
     },
